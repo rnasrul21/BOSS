@@ -10,7 +10,7 @@
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">BOSS - Bridge of Student and Sponsor</a>
+	      <a class="navbar-brand" href="index.php">BOSS - Bridge of Student and Sponsor</a>
 	    </div>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
@@ -27,7 +27,7 @@
 				Formulir Pendaftaran Mahasiswa
 			</div>
 			<div class="panel-body">
-				<form action="prosespendaftaran.php" method="POST">
+				<form action="prosespendaftaranmahasiswa.php" method="POST">
 					<div class ="form-group">
 						<label for="nim">NIM: </label>
 						<input type="text" class="form-control" name="nim" placeholder="Nim" />

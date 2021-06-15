@@ -10,7 +10,7 @@
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">BOSS - Bridge of Student and Sponsor</a>
+	      <a class="navbar-brand" href="index.php">BOSS - Bridge of Student and Sponsor</a>
 	    </div>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
