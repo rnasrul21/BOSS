@@ -15,7 +15,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
 				<li><a href="formdaftarperusahaan.php">Perusahaan</a></li>
-				<li class=""><a href="proposal.php">Admin - Proposal<span class="sr-only">(current)</span></a></li>
+				<li><a href="proposal.php">Admin - Proposal</a></li>
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>
@@ -29,47 +29,42 @@
 			<div class="panel-body">
 				<form action="prosespendaftaranmahasiswa.php" method="POST">
 					<div class ="form-group">
-						<label for="nim">NIM: </label>
+						<label for="nim">NIM *: </label>
 						<input type="text" class="form-control" name="nim" placeholder="Nim" />
 					</div>
 					<div class ="form-group">
-						<label for="nama">Nama: </label>
+						<label for="nama">Nama *: </label>
 						<input type="text" class="form-control" name="nama" placeholder="Nama Lengkap" />
 					</div>
 					<div class ="form-group">
 						<label for="jenis_kelamin">Jenis Kelamin: </label>
 						<div class="form-group">
 							<label class="radio-inline">
-							  <input type="radio" name="inlineRadioOptions" id="jenis_kelamin" value="Laki - Laki"> Laki - Laki
+							  <input type="radio" name="inlineRadioOptions" id="jenis_kelamin" value="pria"> Laki - Laki
 							</label>
 							<label class="radio-inline">
-							  <input type="radio" name="inlineRadioOptions" id="jenis_kelamin" value="Perempuan"> Perempuan
+							  <input type="radio" name="inlineRadioOptions" id="jenis_kelamin" value="wanita"> Perempuan
 							</label>
 						</div>
 
 					</div>
-
 					<div class ="form-group">
 						<label for="prodi">Prodi: </label>
 						<input type="text" class="form-control" name="prodi" placeholder="Jurusan di IPB" />
 					</div>
-
 					<div class ="form-group">
-						<label for="telpon">Nomor Telpon: </label>
-						<input type="text" class="form-control" name="telpon" placeholder="Nomor Telepon" />
+						<label for="no_telp">Nomor Telpon: </label>
+						<input type="text" class="form-control" name="no_telp" placeholder="Nomor Telepon" />
 					</div>
-
 					<div class ="form-group">
 						<label for="norek">Nomor Rekening: </label>
 						<input type="text" class="form-control" name="norek" placeholder="Nomor Rekening" />
 					</div>
-
-					<div class="form-group">
-						<input type="submit" class="btn btn-primary" value="Daftar" name="daftar" />
-						<input type="button" class="btn btn-default" value="Batal" name="Batal" />
+					<div class ="form-group">
+						<input type="submit" class="btn btn-primary" value="daftar" name="daftar" />
+						<input type="button" class="btn btn-default" value="Batal" name="Batal"/>
 					</div>
 					</form>
 			</div>
 		</div>
-	</div>
 	</div>

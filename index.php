@@ -19,3 +19,14 @@
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>
+	<!-- Background image -->
+	<div class=".bg-image .d-flex .justify-content-center .align-items-center"
+	 style="
+	    background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.jpg');
+	    height: 100vh;
+	  "
+	>
+	  <h1  style="color:white;">Page title</h1>
+	</div>
+	<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+	<!-- Background image -->
