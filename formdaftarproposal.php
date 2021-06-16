@@ -35,14 +35,14 @@
 				<div class="panel-body">
 					<form action="prosespendaftaranproposal.php" method="POST">
 						<div class ="form-group">
-							<label for="nim">nim *: </label>
+							<label for="nim">nim* : </label>
 							<input type="text" class="form-control" name="nim" placeholder="nim" />
 						<div class ="form-group">
-							<label for="nim">id proposal *: </label>
+							<label for="nim">id proposal* : </label>
 							<input type="text" class="form-control" name="id" placeholder="id proposal" />
 						</div>
 						<div class ="form-group">
-						<label for="nama">link proposal *: </label>
+						<label for="nama">link proposal* : </label>
 						<input type="text" class="form-control" name="link" placeholder="link gdrive" />
 					</div>
 						<div class ="form-group">
