@@ -4,15 +4,12 @@ include("config.php");
 if(isset($_POST['daftar'])){
 
 	// ambil data dari formulir
-	$nim = $_POST['nim'];
-	$nama = $_POST['nama'];
-	$jenis_kelamin = $_POST['jenis_kelamin'];
-	$prodi = $_POST['prodi'];
-	$no_telp = $_POST['no_telp'];
-	$norek = $_POST['norek'];
+	$id = $_POST['id'];
+	$link = $_POST['link'];
+	$nim = $POST['nim'];
 
 	// buat query
-  $query = pg_query("INSERT INTO mahasiswa VALUEs('$nim','$nama','$jenis_kelamin','$prodi', '$no_telp','$norek')");
+  $query = pg_query("INSERT INTO proposal(id_proposal,link,nim) VALUEs('$id','$link','$nim')");
 
 	// apakah query simpan berhasil?
 	if( $query==TRUE ) {
@@ -20,7 +17,7 @@ if(isset($_POST['daftar'])){
 		header('Location: formdaftarproposal.php?status=sukses');
 	} else {
 		// kalau gagal alihkan ke halaman indek.ph dengan status=gagal
-		header('Location: index.php?status=gagal');
+		header('Location: formdaftarproposal.php?status=gagal');
 	}
 
 

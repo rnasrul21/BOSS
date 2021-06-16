@@ -20,8 +20,14 @@
   </div><!-- /.container-fluid -->
 	</nav>
 
+	<div class=".bg-image .d-flex .justify-content-center .align-items-center"
+	 style="
+	    background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.jpg');
+	    height: 100vh;
+	  "
+	>
+	  <h1  style="color:black;">Page title</h1>
 	<div class="container">
-		<h3>IPB University</h3>
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				Formulir Pendaftaran perusahaan
