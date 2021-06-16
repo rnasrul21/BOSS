@@ -25,6 +25,6 @@ if(isset($_POST['daftar'])){
 
 
 } else {
-	die("Akses dilarang...");
+	header('Location: index.php?status=batal');;
 }
 ?>

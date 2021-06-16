@@ -15,7 +15,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
 				<li><a href="formdaftarperusahaan.php">Perusahaan</a></li>
-				<li class=""><a href="proposal.php">Admin - Proposal<span class="sr-only">(current)</span></a></li>
+				<li class=""><a href="proposal.php">Cek Proposal<span class="sr-only">(current)</span></a></li>
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>
@@ -26,7 +26,8 @@
 	    height: 100vh;
 	  "
 	>
-	  <h1  style="color:white;">Page title</h1>
-	</div>
-	<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
-	<!-- Background image -->
+	  <h1 style="color:white; text-align:center;">
+			<br/><br/><br/><br/><br/><br/><br/><br/>
+
+			Hai! Selamat datang di Web Jembatan Mahasiswa dan Sponsor</h1>
+			<!-- Background image -->

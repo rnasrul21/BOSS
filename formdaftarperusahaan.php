@@ -15,7 +15,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
 				<li><a href="formdaftarperusahaan.php">Perusahaan</a></li>
-				<li><a href="proposal.php">Admin - Proposal</a></li>
+				<li><a href="proposal.php">Cek Proposal</a></li>
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>

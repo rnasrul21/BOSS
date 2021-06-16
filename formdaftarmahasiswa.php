@@ -15,7 +15,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
 				<li><a href="formdaftarperusahaan.php">Perusahaan</a></li>
-				<li><a href="proposal.php">Admin - Proposal</a></li>
+				<li><a href="proposal.php">Cek Proposal</a></li>
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>
@@ -39,7 +39,7 @@
 							<input type="text" class="form-control" name="nim" placeholder="Nim" />
 						</div>
 						<div class ="form-group">
-						<label for="nama">Nama* : </label>
+						<label for="nama">Nama *: </label>
 						<input type="text" class="form-control" name="nama" placeholder="Nama Lengkap" />
 					</div>
 						<div class ="form-group">
@@ -68,7 +68,7 @@
 						</div>
 						<div class ="form-group">
 							<input type="submit" class="btn btn-primary" value="daftar" name="daftar" />
-							<input type="button" class="btn btn-default" value="Batal" name="Batal"/>
+							<input type="submit" class="button" value="Batal" name="Batal"/>
 						</div>
 						</form>
 					</div>

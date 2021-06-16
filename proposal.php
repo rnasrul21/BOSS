@@ -16,7 +16,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="formdaftarmahasiswa.php">Mahasiswa</a></li>
 				<li><a href="formdaftarperusahaan.php">Perusahaan</a></li>
-				<li class=""><a href="proposal.php">Admin - Proposal<span class="sr-only">(current)</span></a></li>
+				<li class=""><a href="proposal.php">Cek Proposal<span class="sr-only">(current)</span></a></li>
 			</ul>
   </div><!-- /.container-fluid -->
 	</nav>
@@ -44,7 +44,8 @@
 
 		<?php
 		$l = pg_query("SELECT id_proposal,status,nim,dana FROM proposal");
-		$a = pg_query("SELECT nama FROM mahasiswa,proposal where mahasiswa.nim=proposal.nim");
+		$a = pg_query("SELECT mahasiswa.nama,proposal.id_proposal,proposal.status,proposal.dana,perusahaan.nama
+      FROM mahasiswa,proposal,perusahaan where mahasiswa.nim=proposal.nim and proposal.");
 		// $query = mysqli_query($db, $sql);
 
 
