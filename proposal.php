@@ -43,18 +43,17 @@
 	<tbody>
 
 		<?php
-		$l = pg_query("SELECT id_proposal,status,nim,dana FROM proposal");
-		$a = pg_query("SELECT mahasiswa.nama,proposal.id_proposal,proposal.status,proposal.dana,perusahaan.nama
-      FROM mahasiswa,proposal,perusahaan where mahasiswa.nim=proposal.nim and proposal.");
-		// $query = mysqli_query($db, $sql);
+		$q = pg_query("SELECT proposal.id_proposal,mahasiswa.nama,proposal.status,
+      proposal.dana FROM proposal,mahasiswa where mahasiswa.nim=proposal.nim");
+    	// $query = mysqli_query($db, $sql);
 
 
-		while($m = pg_fetch_array($l)){
+		while($q = pg_fetch_array($q['nama'])){
 			echo "<tr>";
-			echo "<td>".$l['id_proposal']."</td>";
-			echo "<td>".$a['nama']."</td>";
-			echo "<td>".$l['status']."</td>";
-			echo "<td>".$l['dana']."</td>";
+			echo "<td>".$q['id_proposal']."</td>";
+			echo "<td>".$q['nama']."</td>";
+			echo "<td>".$q['status']."</td>";
+			echo "<td>".$q['dana']."</td>";
 
 			echo "</tr>";
 
