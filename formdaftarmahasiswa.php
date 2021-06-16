@@ -35,11 +35,11 @@
 				<div class="panel-body">
 					<form action="prosespendaftaranmahasiswa.php" method="POST">
 						<div class ="form-group">
-							<label for="nim">NIM *: </label>
+							<label for="nim">NIM* : </label>
 							<input type="text" class="form-control" name="nim" placeholder="Nim" />
 						</div>
 						<div class ="form-group">
-						<label for="nama">Nama *: </label>
+						<label for="nama">Nama* : </label>
 						<input type="text" class="form-control" name="nama" placeholder="Nama Lengkap" />
 					</div>
 						<div class ="form-group">
