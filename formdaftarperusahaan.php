@@ -35,11 +35,11 @@
   		<div class="panel-body">
 				<form action="prosespendaftaranperusahaan.php" method="POST">
 					<div class ="form-group">
-						<label for="id_perusahaan">id *: </label>
+						<label for="id_perusahaan">id* : </label>
 						<input type="text" class="form-control" name="id_perusahaan" placeholder="id perusahaan" />
 					</div>
 					<div class ="form-group">
-						<label for="nama">Nama *: </label>
+						<label for="nama">Nama* : </label>
 						<input type="text" class="form-control" name="nama" placeholder="nama lengkap" />
 					</div>
 					<div class ="form-group">
